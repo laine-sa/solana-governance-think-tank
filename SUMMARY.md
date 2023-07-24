@@ -1,8 +1,18 @@
 # Table of contents
 
-* [🗒 Meeting Notes](README.md)
+* [🗒 Solana Governance Think Tank](README.md)
 
-## Meeting Template
+## Exploration
 
-* [Meeting template](meeting-template/meeting-template.md)
-* [Weekly Sync - 04/07/22](meeting-template/weekly-sync-04-07-22.md)
+* [Why](exploration/why.md)
+* [What](exploration/what.md)
+* [Who](exploration/who.md)
+* [How](exploration/how.md)
+
+## Practicalities
+
+* [Delegated governance authority](practicalities/delegated-governance-authority.md)
+* [Proposal collateral](practicalities/proposal-collateral.md)
+* [Voting options & slashing](practicalities/voting-options-and-slashing.md)
+* [Quorum](practicalities/quorum.md)
+* [Vote locking & redelegation](practicalities/vote-locking-and-redelegation.md)

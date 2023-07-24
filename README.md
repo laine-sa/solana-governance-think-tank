@@ -1,7 +1,29 @@
-# 🗒 Meeting Notes
+---
+description: A community-led effort to explore the topic of on-chain governance on Solana
+---
 
-Keep your company's or teams' meeting notes in one place. Indexable, searchable and deep-linkable (yes, that's a word).
+# 🗒 Solana Governance Think Tank
+
+This effort is a community-led exploration of the topic of on-chain governance. We explore the questions of why governance is necessary, what it actually entails, how it might be implemented and who would be participating in it.
 
 {% hint style="info" %}
-**Good to know:** GitBook is a great place to document your team's meetings, giving folks access to documentation from every meeting. This template is structured in a way that gives collaborative, open note-taking centre stage. There's no reason why you can't use it for private or personal meeting notes though!
+As it stands this is a first draft as presented by Michael from Laine and doesn't yet represent a community-formed view.
 {% endhint %}
+
+Primary discussion forum is [this Telegram group](https://t.me/+CNvn2-hKQRRiMWVk) - please feel free to join it if you're interested in participating.
+
+This Gitbook serves as a place to capture the discussions as they evolve and formulate a framework of what the social consensus believes governance should look like.
+
+{% hint style="info" %}
+This effort and output is not binding and does not form a final decision on governance implementation. Any final implementation of a governance structure or process would require a full on-chain stake-weighted vote by validators.
+{% endhint %}
+
+Initially, this document will begin by exploring some key questions:
+
+* Why - why do we need governance
+* What - what is governance, what areas, actions and policies does it cover
+* Who - who participates in governance, in which roles
+* How - how do we implement
+
+
+
