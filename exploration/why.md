@@ -18,6 +18,13 @@ With a single client the core contributors of the Labs client can effectively de
 
 Feature gates are activated via the feature program on-chain, with a private key unique to each feature gate which is owned by the core contributor associated to that feature gate. Activation is managed via a schedule and social consensus.
 
+Discussions take place broadly on three our four fora:
+
+* SIMD (Solana Improvement Document)[ repository on Github](https://github.com/solana-foundation/solana-improvement-documents)
+* sRFC (Solana Request for Comments) [category on the Solana forum](https://forum.solana.com/c/srfc/6)
+* [Solana Tech Discord](https://discord.gg/7pRD5v3MdU)
+* Private discussions between client teams, e.g. on Slack
+
 ### Current on-chain voting
 
 A current implementatin of on-chain stake-weighted voting by validators does exist. This is a component of the feature program.
