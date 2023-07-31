@@ -8,6 +8,7 @@
 * [What](exploration/what.md)
 * [Who](exploration/who.md)
 * [How](exploration/how.md)
+* [Lifecycle of a Proposal](exploration/lifecycle-of-a-proposal.md)
 
 ## Practicalities
 
