@@ -13,3 +13,14 @@ At the same time it is important to determine clearly how decisions are made. So
 It seems natural that if validators may choose which blocks and thus which transactions are valid (and currently one validator at a time also chooses which transactions even go into blocks), that this same delegated voting power is used for governance.
 
 It is however likely still desirable to permit other stakeholders (i.e. anyone) to create governance proposals (with disincentives for abuse), to participate in debate around proposals and to lobby for a particular outcome.
+
+### Notes from conversations
+
+Debate on Telegram has focused on who should vote, and in particular whether validators are the best group to vote or whether governance should be a separate structure within the network.
+
+Some ideas:
+
+* Validators vote
+* Holders vote
+* Other stakeholders participate in voting too
+* Hybrid of the above
