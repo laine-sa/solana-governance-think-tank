@@ -38,7 +38,7 @@ What mechanism is used to assign voting power to the various stakeholders define
 - Quadratic voting
 - Other (TBD)
 
-### Notes from conversations
+## Notes from conversations
 
 Debate on Telegram has focused on who should vote, and in particular whether validators are the best group to vote or whether governance should be a separate structure within the network.
 
