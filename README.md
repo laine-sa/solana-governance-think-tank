@@ -40,5 +40,7 @@ Contributors, listed alphabetically, are defined as those community members who 
 * Chris / Chainflow
 * Michael / Laine (also created and maintains the Gitbok)
 
+A full list of contributions can be found [here](https://github.com/laine-sa/solana-governance-think-tank/graphs/contributors).
+
 
 
