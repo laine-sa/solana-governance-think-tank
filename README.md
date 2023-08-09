@@ -10,7 +10,7 @@ This effort is a community-led exploration of the topic of on-chain governance. 
 As it stands this is a first draft as presented by Michael from Laine and doesn't yet represent a community-formed view.
 {% endhint %}
 
-Primary discussion forum is [this Telegram group](https://t.me/+CNvn2-hKQRRiMWVk) - please feel free to join it if you're interested in participating.
+Primary discussion forum is the Governance Think Tank section of the [Solana Staking Alliance Discord server](https://discord.gg/HP7a87Ub) - please feel free to join it if you're interested in participating.
 
 This Gitbook serves as a place to capture the discussions as they evolve and formulate a framework of what the social consensus believes governance should look like.
 
