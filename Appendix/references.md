@@ -16,6 +16,8 @@ This is a list of various reference materials. While they may be, inclusion in t
 
 [The Three Pillars of Polygon Governance](https://polygon.technology/governance-pillars)
 
+[Polygon PIP Process](https://github.com/maticnetwork/Polygon-Improvement-Proposals)
+
 #### Ethereum
 
 [Ethereum Improvement Proposals](https://eips.ethereum.org/)
