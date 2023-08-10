@@ -38,7 +38,35 @@ What mechanism is used to assign voting power to the various stakeholders define
 - Quadratic voting
 - Other (TBD)
 
-### Notes from conversations
+## Current Proposals
+
+Note that as of August 10, 2023, conversations seem to be favoring option 1 so far.
+
+### Proposal 1 - Validators Only
+
+#### Description
+
+Validators are the only stakeholders who vote. Validator votes are stake-weighted.
+
+Those supporting this proposal suggest that stake account holders can express their desired vote outcome by either staying staked to their validator if they agree with their selected validator's voting or delegate away from their selected validator if they disagree with the way that validator votes.
+
+There is currently a difference of opinion as to whether there should be a time window within the governance timeline for stake account holders to make this decision or whether the current unstake functionality is sufficient. Detractors have expressed an opinion this is a less inclusive approach than Proposals 2 or 3.
+
+### Proposal 2 - Validators and Stake Accounts
+
+#### Description
+
+Validators and stake account owners vote. Validator and stake account votes are stake-weighted. Validator votes on behalf of stake account holders. Stake account holders can override the vote of their validator.
+
+This option is similar to how voting works on Cosmos. Those supporting this proposal feel that it is a more inclusive approach than Proposal 1. Detractors question the technical feasibility of allowing such a large number of stake accounts (~500k) to vote, as well as the value the stake holders will provide through their votes.
+
+### Proposal 3 - Validators, Stake Accounts and Other Stakeholders
+
+Validators, stake account holders and other stakeholders, such as RPC operators and Dapp developers vote. Voting power is not distributed via stake weight.
+
+This proposal is under development [here](https://hackmd.io/RyGbl7RLQAmDHAZG-6gfMA?utm_source=comment-card&utm_medium=icon).
+
+## Notes from conversations
 
 Debate on Telegram has focused on who should vote, and in particular whether validators are the best group to vote or whether governance should be a separate structure within the network.
 
