@@ -28,7 +28,9 @@ Which stakeholders within the Solana community vote?
 - Dapp developers
 - Other (TBD)
 
-Do all stakeholders vote on a all governance topics defined in the "What" section?
+A related question is whether voting requires ownership of SOL. If it does, this requirement by default may define the stakeholder set, e.g. to token holders and validators, if token holders delegate their voting power to validators. If it doesn't, the stakeholder set can be more widely defined, making the question listed below regarding how voting power is assigned all the more important.
+
+Do all stakeholders vote on all governance topics defined in the "What" section?
 
 ### How is voting power allocated?
 
@@ -76,3 +78,13 @@ Some ideas:
 * Holders vote
 * Other stakeholders participate in voting too
 * Hybrid of the above
+
+## Current proposal (Sill very much a work in progress!)
+
+- Who votes?
+  - Token holders
+  - Validators
+
+- Token holders delegate their voting power to the validator(s) they stake to
+- Validator votes with their stake and the stake delegated to them
+- Token holders can override their validator's vote by directly voting themselves
