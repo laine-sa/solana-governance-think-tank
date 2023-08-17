@@ -15,7 +15,7 @@ An initial, incomplete list of types of governance decisions that may exist in a
   * Upgrade timelines and approvals
   * Client adoption
   * Feature activation
-  * SIMD Implementation approval (SIMD published, initial debate finalized, vote on whether to implement) (Possibly move to the "How" section?)
+  * [SIMD](https://www.soldev.app/simd) Implementation approval (SIMD published, initial debate finalized, vote on whether to implement) (Possibly move to the "How" section?)
 * Economics
   * Inflation and staking rewards changes
   * Transaction fees (especially once transaction fees have been overhauled and hopefully include on-chain parameters)
