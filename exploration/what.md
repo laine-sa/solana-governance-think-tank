@@ -35,3 +35,32 @@ Initially minor protocol-altering technical changes should likely not fall under
 Major protocol changes as well as economic changes should likely fall under governance.
 
 Whether a community fund should or will exist is a further debate. The Solana Foundation administers an ecosystem fund, and there is a case to be made that some portion of this should potentially be made available for administration through governance, e.g. for grants or other development that the community wishes to decide on, independent of the Foundation.
+
+## Current Proposal(s)
+
+### Proposal A
+
+In scope are proposed changes to - 
+
+* Economics (parameters taken from [here](https://docs.solana.com/inflation/terminology)
+  * Total current supply (SOL)
+  * Inflation rate (%)
+  * Inflation schedule
+  * Effective inflation rate (%)
+  * Staking yield (%)
+  * Total dilution (%)
+  * Adjusted staking yield (%)
+  * Slashing (not currently defined in Solana docs)
+ 
+   Additional reference [Basic economic design](https://docs.solana.com/transaction_fees#basic-economic-design).
+
+* Consensus
+  * Changes to consensus rules
+
+### Proposal B
+
+In scope are proposed changes to - 
+
+* Native programs
+
+* Major feature developments/proposals
