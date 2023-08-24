@@ -44,7 +44,7 @@ What mechanism is used to assign voting power to the various stakeholders define
 
 Note that as of August 10, 2023, conversations seem to be favoring option 1 so far.
 
-### Proposal 1 - Validators Only
+### Proposal A - Validators Only
 
 #### Description
 
@@ -54,7 +54,7 @@ Those supporting this proposal suggest that stake account holders can express th
 
 There is currently a difference of opinion as to whether there should be a time window within the governance timeline for stake account holders to make this decision or whether the current unstake functionality is sufficient. Detractors have expressed an opinion this is a less inclusive approach than Proposals 2 or 3.
 
-### Proposal 2 - Validators and Stake Accounts
+### Proposal B - Validators and Stake Accounts
 
 #### Description
 
@@ -62,7 +62,7 @@ Validators and stake account owners vote. Validator and stake account votes are 
 
 This option is similar to how voting works on Cosmos. Those supporting this proposal feel that it is a more inclusive approach than Proposal 1. Detractors question the technical feasibility of allowing such a large number of stake accounts (~500k) to vote, as well as the value the stake holders will provide through their votes.
 
-### Proposal 3 - Validators, Stake Accounts and Other Stakeholders
+### Proposal C - Validators, Stake Accounts and Other Stakeholders
 
 Validators, stake account holders and other stakeholders, such as RPC operators and Dapp developers vote. Voting power is not distributed via stake weight.
 
