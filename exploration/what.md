@@ -38,11 +38,13 @@ Whether a community fund should or will exist is a further debate. The Solana Fo
 
 ## Current Proposal(s)
 
+The following are the leading Phase 1 implementation proposals that have emerged from discussions so far. The goal is to define a scope that is both practically limited and technically achievable, as Phase 1 is intended to the the first implementation phase of this newly defined governance process.
+
 ### Proposal A
 
 In scope are proposed changes to - 
 
-* Economics (parameters taken from [here](https://docs.solana.com/inflation/terminology)
+* Economics (parameters taken from [Solana Docs](https://docs.solana.com/inflation/terminology))
   * Total current supply (SOL)
   * Inflation rate (%)
   * Inflation schedule
@@ -54,13 +56,36 @@ In scope are proposed changes to -
  
    Additional reference [Basic economic design](https://docs.solana.com/transaction_fees#basic-economic-design).
 
-* Consensus
-  * Changes to consensus rules
+* Consensus (reference [Shinobi Systems PoS and PoH Primer](https://www.shinobi-systems.com/primer.html))
+  * 67% of stake weight required for consensus
+  * Leader schedule
+    * Selection
+    * Enforcement
+  * Proof of history
+    * Clock specification
+    * Block streaming process
 
 ### Proposal B
 
 In scope are proposed changes to - 
 
-* Native programs
+* Native programs list taken from [Solana Docs](https://docs.solana.com/developing/runtime-facilities/programs)
+  * System program
+  * Config program
+  * Stake program
+  * Vote program
+  * BPF loader
+  * Ed25519 program
+  * Secp256k1 program
 
 * Major feature developments/proposals
+  * Generally intended to be consistent with the emerging [SIMD process](https://github.com/solana-foundation/solana-improvement-documents/blob/main/proposals/0001-simd-process.md)
+  * "Major" is TBD, examples given from the existing process, linked in the previous bullet point
+    * Include
+      *  A change in format of a RPC API method
+      * Networking interface changes between validators
+      * Compute requirement changes on the runtime
+    * Exclude
+      * Rephrasing, reorganizing, refactoring, or otherwise "changing shape does not change meaning".
+      * Additions that strictly improve objective, numerical quality criteria (warning removal, speedup, better platform coverage, more parallelism, trap more errors, etc.)
+   
