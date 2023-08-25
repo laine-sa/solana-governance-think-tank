@@ -78,13 +78,3 @@ Some ideas:
 * Holders vote
 * Other stakeholders participate in voting too
 * Hybrid of the above
-
-## Current proposal (Sill very much a work in progress!)
-
-- Who votes?
-  - Token holders
-  - Validators
-
-- Token holders delegate their voting power to the validator(s) they stake to
-- Validator votes with their stake and the stake delegated to them
-- Token holders can override their validator's vote by directly voting themselves
