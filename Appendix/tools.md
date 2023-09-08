@@ -9,4 +9,5 @@
 ### Voting and DAO Management
 
 [Snapshot](https://snapshot.org/#/)
+
 [Tally](https://www.tally.xyz/)
