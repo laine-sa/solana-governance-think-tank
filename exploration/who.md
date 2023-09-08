@@ -62,6 +62,8 @@ Validators and stake account owners vote. Validator and stake account votes are 
 
 This option is similar to how voting works on Cosmos. Those supporting this proposal feel that it is a more inclusive approach than Proposal 1. Detractors question the technical feasibility of allowing such a large number of stake accounts (~500k) to vote, as well as the value the stake holders will provide through their votes.
 
+A potential modification of this proposal is that validators could have the power to allow or deny their delegators the ability to vote.
+
 ### Proposal C - Validators, Stake Accounts and Other Stakeholders
 
 Validators, stake account holders and other stakeholders, such as RPC operators and Dapp developers vote. Voting power is not distributed via stake weight.
