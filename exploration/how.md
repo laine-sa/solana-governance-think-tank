@@ -50,18 +50,18 @@ What's needed is a CLI tool to create a feature proposal. A token and distributi
 
 ## Interim Process - Timeline
 
-### Proposal submission
+### Step 1 - Proposal submission
 
 * Duration - 1 day
   
-### Initial discussion period
+### Step 2 - Initial discussion period
 
 * Duration - 2 weeks
 * Date - TBD
 * Venue
   * Solana Discussion Forum post
 
-### Voting period
+### Step 3 - Voting period
 
 * Duration - 1 week
 * Start / End dates - TBD / TBD
@@ -71,7 +71,7 @@ What's needed is a CLI tool to create a feature proposal. A token and distributi
  
 Note that a TBD quorum must be reached for the vote to be considered valid.
  
-### Vote result publication
+### Step 4 - Vote result publication
 
 * Duration - 1 day
 * Date - TBD
