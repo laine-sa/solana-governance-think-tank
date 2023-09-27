@@ -70,7 +70,26 @@ What's needed is a CLI tool to create a feature proposal. A token and distributi
   * Solana Discussion Forum posts to communicate individual votes and reasoning behind them
  
 Note that a TBD quorum must be reached for the vote to be considered valid.
- 
+
+#### Proposed voting process
+
+Tokens for each vote will be created and sent to each validator's identity account. There is an existing SPL CLI for this as part of the feature proposal process. This can be used even if no feature actually exists in the costs.
+
+It will cost 4-5 SOL per vote to create and distribute tokens into token accounts for all validators.
+
+The current process only has a single "YES" vote option, this will be modified by providing addresses for each option. Balnces will need to be manually monitored. Full detail on how to verify all balances and amounts will be shared. The CLI automatically creates a stake-weighted distribution CSV.
+
+https://spl.solana.com/feature-proposal
+
+The first "informative" vote will be:
+
+Who should cast votes in a future governance process?
+-- Only validators, weighted by stake
+-- Validators and Delegators, if a delegator votes it overrides that portion of the validator's stake-weight
+-- Validators & other stake-holders
+
+See proposal details [here](https://sg.laine.one/exploration/who#current-proposals).
+
 ### Step 4 - Vote result publication
 
 * Duration - 1 day
