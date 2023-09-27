@@ -35,3 +35,53 @@ The actual lifecycle of a proposal and voting procedure is the area where a lot 
 * Quorum reached or not
 * Vote
 * Vote result execution
+
+## Interim Process - Introduction
+
+As of September 18, 2023
+
+The discussion over the past two months has resulted in three Why proposals and two What proposals. It's now time to start moving toward making initial decisions. 
+
+To make these iniial decisions requires an interim process. This interim process with follow the logic of a "minimum viable process". It's purpose is to facilitate these initial decisions. It is expected that this interim process will evolve as discussion moves from the WHo and Why to How. Because of this, it's important that the interim process serves the purpose it's intended to serve, without it getting stuck in a loop of over-engineering.
+
+The curent proposal, discussed in a recent [community-led validator call](https://hackmd.io/1DFauFMWTZG37-U7CXhxMg?view#Meeting-Notes-Summary), suggests using the existing feature of governance that exists on chain. It's current implementation includes stakeweighted voting and was orginally intended to activate features.
+
+What's needed is a CLI tool to create a feature proposal. A token and distribution schedule will be created for all the validators. The only voting option available through this process will be a "yes". A possible workaround is to send tokens to one address to indicate a "yes" vote and another address to indicate a "no" vote. The logic to do this in the case of choosing one out of three choices, as required by the "Who" vote, is to be determined.
+
+## Interim Process - Timeline
+
+### Step 1 - Proposal submission
+
+* Duration - 1 day
+  
+### Step 2 - Initial discussion period
+
+* Duration - 2 weeks
+* Date - TBD
+* Venue
+  * Solana Discussion Forum post
+
+### Step 3 - Voting period
+
+* Duration - 1 week
+* Start / End dates - TBD / TBD
+* Venue
+  * CLI tool to place votes
+  * Solana Discussion Forum posts to communicate individual votes and reasoning behind them
+ 
+Note that a TBD quorum must be reached for the vote to be considered valid.
+ 
+### Step 4 - Vote result publication
+
+* Duration - 1 day
+* Date - TBD
+* Venue
+  * Solana Discussion Forum post communicating vote result and back-up informatino
+
+### Next steps, i.e. implementation
+
+It is expected that these vote will be adhered to when the more form governance process is defined and adopted. Until then, they will be used as the foundation from which to begin developing the more formalized and longer-term How process.
+ 
+    
+
+ 
