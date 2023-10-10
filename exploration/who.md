@@ -83,7 +83,7 @@ Some ideas:
 
 
 
-### Advisory Vote
+## Advisory Vote
 
 The CSV file for the distribution of tokens according to stake weight for the initial advisory vote can be downloaded and reviewed here:
 
