@@ -22,11 +22,11 @@ It is however likely still desirable to permit other stakeholders (i.e. anyone) 
 
 Which stakeholders within the Solana community vote?
 
-- Client building teams
-- Infrastructure (validator and RPC) operators
-- Tokenholders
-- Dapp developers
-- Other (TBD)
+* Client building teams
+* Infrastructure (validator and RPC) operators
+* Tokenholders
+* Dapp developers
+* Other (TBD)
 
 A related question is whether voting requires ownership of SOL. If it does, this requirement by default may define the stakeholder set, e.g. to token holders and validators, if token holders delegate their voting power to validators. If it doesn't, the stakeholder set can be more widely defined, making the question listed below regarding how voting power is assigned all the more important.
 
@@ -36,9 +36,9 @@ Do all stakeholders vote on all governance topics defined in the "What" section?
 
 What mechanism is used to assign voting power to the various stakeholders defined above?
 
-- Stake-weighted voting power allocation, e.g. 1 token = 1 vote
-- Quadratic voting
-- Other (TBD)
+* Stake-weighted voting power allocation, e.g. 1 token = 1 vote
+* Quadratic voting
+* Other (TBD)
 
 ## Current Proposals
 
@@ -60,7 +60,7 @@ There is currently a difference of opinion as to whether there should be a time 
 
 Validators and stake account owners vote. Validator and stake account votes are stake-weighted. Validator votes on behalf of stake account holders. Stake account holders can override the vote of their validator.
 
-This option is similar to how voting works on Cosmos. Those supporting this proposal feel that it is a more inclusive approach than Proposal 1. Detractors question the technical feasibility of allowing such a large number of stake accounts (~500k) to vote, as well as the value the stake holders will provide through their votes.
+This option is similar to how voting works on Cosmos. Those supporting this proposal feel that it is a more inclusive approach than Proposal 1. Detractors question the technical feasibility of allowing such a large number of stake accounts (\~500k) to vote, as well as the value the stake holders will provide through their votes.
 
 A potential modification of this proposal is that validators could have the power to allow or deny their delegators the ability to vote.
 
@@ -68,7 +68,7 @@ A potential modification of this proposal is that validators could have the powe
 
 Validators, stake account holders and other stakeholders, such as RPC operators and Dapp developers vote. Voting power is not distributed via stake weight.
 
-This proposal is under development [here](https://hackmd.io/RyGbl7RLQAmDHAZG-6gfMA?utm_source=comment-card&utm_medium=icon).
+This proposal is under development [here](https://hackmd.io/RyGbl7RLQAmDHAZG-6gfMA?utm\_source=comment-card\&utm\_medium=icon).
 
 ## Notes from conversations
 
@@ -80,3 +80,11 @@ Some ideas:
 * Holders vote
 * Other stakeholders participate in voting too
 * Hybrid of the above
+
+
+
+### Advisory Vote
+
+The CSV file for the distribution of tokens according to stake weight for the initial advisory vote can be downloaded and reviewed here:
+
+{% file src="../.gitbook/assets/feature-proposal.csv" %}
