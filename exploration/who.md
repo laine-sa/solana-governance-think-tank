@@ -85,6 +85,8 @@ Some ideas:
 
 ## Advisory Vote
 
+An advisory (non-binding information only) vote has been created [here](https://forum.solana.com/t/vote-first-governance-advisory-vote-by-validators/597) - validators may vote to help inform a stake-weighted consensus on this topic.
+
 The CSV file for the distribution of tokens according to stake weight for the initial advisory vote can be downloaded and reviewed here:
 
 {% file src="../.gitbook/assets/feature-proposal.csv" %}
