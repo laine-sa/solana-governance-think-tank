@@ -80,3 +80,10 @@ Some ideas:
 * Holders vote
 * Other stakeholders participate in voting too
 * Hybrid of the above
+
+## Vote Results
+
+The [first governance advisory vote regarding "Who" should vote](https://forum.solana.com/t/vote-first-governance-advisory-vote-by-validators/597) concluded on October 20, 2023. The results are shown below and can be found [here](https://forum.solana.com/t/vote-first-governance-advisory-vote-by-validators/597/5).
+
+![1e3c8080bd86e93915198832c6e5476bcfe3d2b9](https://github.com/cfl0ws/solana-governance-think-tank/assets/6430200/c26e10fa-46ed-4c1b-9136-6c56d5729082)
+
