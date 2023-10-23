@@ -36,6 +36,24 @@ The actual lifecycle of a proposal and voting procedure is the area where a lot 
 * Vote
 * Vote result execution
 
+## Foundation Perspective - Added October 23, 2023
+
+From Dan Albert, source link [here](https://discord.com/channels/1030192322769596496/1137345959949512734/1166032931706380359).
+
+Hi all, really appreciating seeing the community start to ramp up more thoughtful discussion around governance.  I want to share a few more tactical updates that you all might be interested in.
+
+1)  SIMD-72 [1] proposes an automated activation process for new feature gates.  This would distribute the activation process out to the validators and their respective software versions, rather than the current method which activates based on a single signer.  This was the topic of the most recent Core Dev call last week [2]
+
+2)  Starting with the 1.17 release from Solana Labs, before this or any future branch would be proposed for Mainnet adoption, all new feature gates will be mapped to a corresponding SIMD in the release notes or similar update doc.
+
+3)  Solana Foundation is hiring for a Technical Program Manager (TPM) to act as a full time liaison/coordinator for the core protocol development process [3].  The goal here is to act as a better steward of the SIMD process and all the human coordination that takes place before (research, experiments, initial proposals), during (formal SIMD proposal, debate, social consensus, some level of governance), and after (implementation in the multiple validator codebases, integration testing, adoption and activation on Mainnet).  The process is still immature and rather high friction for a lot of people, and Foundation desires to act as a coordinating (not dictating) entity so that anyone in the community can discover, navigate and participate in the process of steering the Solana protocol.
+
+[1] https://github.com/solana-foundation/solana-improvement-documents/pull/72
+
+[2] https://twitter.com/i/broadcasts/1YqKDgWjakNxV
+
+[3] https://jobs.ashbyhq.com/Solana%20Foundation/af17443d-406d-419b-9116-1e4db2bc4468?utm_source=Solana+Network+Opportunities+job+board&utm_medium=getro.com&gh_src=Solana+Network+Opportunities+job+board
+
 ## Interim Process - Introduction
 
 As of September 18, 2023
