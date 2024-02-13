@@ -1,0 +1,83 @@
+# Validator Community Call 09/11/23
+## Solana Community call 
+### 1 - State of the network
+- Call to upgrade to v1.14.27 / v1.16.13 
+**v1.16 upgrade**
+   - Performance improvements
+   - Paused on more than 10% upgrading during ongoing troubleshooting? (currently at ~11%)
+   - More stake to upgrade in a week or two if you have not upgrade DO NOT upgrade
+   - General protection fault investigation being handled
+   - 3-5 min restart time from Kollan
+   - Configured separate discs
+   - Accounts are not in RAM
+- FTX liquidation, more activity than usual anticipated?
+- Hoping it happens OTC
+- Not a lot is known in regards to it
+### 2 - Block 0 planning
+**Call for 2-3 additional sponsors to lighten the load on existing sponsors**
+   - 3 validators
+   - 3 infrastructure providers
+   - 1 developer
+   - 1 finance
+   - 1 legal
+- Working to finalize agenda, feedback window closing soon
+- RSVP if you haven’t:  https://lu.ma/0k9m99s1
+- The agenda should be nailed down this week
+### 3 - Governance discussion
+- Who, three proposals on the table
+- What, two proposals on the table
+- How do we choose between these proposals now that we have options?
+- Michael wants to keep it simple to begin with by setting up some kind of advisory informational votes in the next two weeks using the existing feature of governance that exists on Chain (stakeweighted and can be used to activate features)
+- There is a CLI tool where you can create a feature proposal that does not exist in the codebase. A token and distribution schedule will be created for all the validators and you can only vote yes. 
+- Suggestion: Can clean up the process better by sending tokens to one address for “yes” and other address for “no” 
+- We do not have everyone participating currently so it is not a full representation
+- California packet on citizen-created referendums parallel to what we can do with the Solana proposals?
+   - To educate people, allow people to provide input, figure out pros and cons
+- People post their position and why when it comes to who is allowed to vote: https://forum.solana.com/t/who-votes-three-proposals/485
+   - Want to use existing post or create a new post to officially set the precedent
+- Discord is for discussions, forum is for statements. Ideally
+- Dashboards to connect with the on-chain actions we are already able to perform?
+**How, do we select among the Who and What proposals?**
+   - Time to start making decisions
+   - Can use an interim solution
+   - Realms/SPL governance discussion
+### 4 - Realms Demo
+- Realms is where all on-chain governance happens for Solana DAOs
+- You need to deposit your governance token or you can mint a token for your governance. Once it is deposited it will recognize what will be used to vote.
+- They have multiple choice voting (as many options as you want) where it is not tied to on-chain instructions
+- Instructions can be: “transfer tokens” for a reward, stake to validators, unstake, and several plug-ins Realms has to interact with Solana Dapps
+- On-chain instruction voting exists but not for sentiments such as the multiple-choice voting
+- Environment when stake account overrides validator (complications to watch further ahead)
+- Council tokens are different and only authorized wallets can use them and they can be minted.
+- It is safety net in case something goes wrong, sybil attacks or issues with quorum, or to fix on-chain instructions that have been mistakenly pushed through.
+- Quorum on realms the amount of yes or no votes to be representative of the community. Vote will not be active if it does not meet the minimum quorum that the community sets.
+- Depending on how you set up your DAO you may need a certain amount of governance tokens
+- Proposals with or without instructions
+- Dapp plugins 
+- Set mint authority or burn mint authority
+- Can delegate governance 
+- Regarding governance posts, this is nice method used by Lido and modeled after Swiss referendum which has neutral third party summarize both positions. Lot of work but seems like good method for important decisions: https://research.lido.fi/t/should-lido-on-ethereum-be-limited-to-some-fixed-of-stake/2225
+
+#### Questions on Realms
+**Stakeweight changes every epoch, how do we manage a constantly changing governance weight for depositing?**
+- We could do one vote per validator with an NFT 
+**Proposal submission is controlled by who? How would spam proposals be deterred?**
+- The proposal threshold needs to be high enough, no new method
+**Links for docs point to the standard spl library. Can we host a self hosted instance of realms on your own?**
+- Yes but it is recommended for experienced teams. 
+**Is there another program involved besides spl governance?**
+- No, realms is the front end for only spl governance
+**What was the organization that had been created to act as a liability shield for DAOs that are created on DAOs?**
+- Friends in the Family DAO, they handle the legal aspect of things when it comes to DAOs: https://youtu.be/9DJvqxjh8lY?si=Gch2ThwutytAm-Hb
+
+### Important Links
+Call to upgrade to v1.14.27 / v1.16.13 - 
+https://discord.com/channels/428295358100013066/669406841830244375/1149801414105763901
+Block Zero Agenda - https://hackmd.io/@KFEZk8oMTz6vBlwADz0M4A/HJf8_sEwn#Schedule--Agenda
+Governance think tank page, "Who" - https://sg.laine.one/exploration/who
+Governance think tank page, "What" - https://sg.laine.one/exploration/what
+
+
+
+
+
